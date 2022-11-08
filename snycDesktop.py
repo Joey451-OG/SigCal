@@ -1,0 +1,7 @@
+cal = open(r"File Location of Repo w/ File", "r")
+caltxt = cal.read()
+desk = open(r"File Location of File on Desktop", "w")
+desk.write(caltxt)
+print('Done')
+cal.close()
+desk.close()

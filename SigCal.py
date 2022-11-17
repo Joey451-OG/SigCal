@@ -12,6 +12,11 @@ while program:
 
     # Sigma Function. Does the Heavy Lifting 
     def sigma(num, printout):
+        '''
+        :param num: Float | Bottom floating point number of summation equation.
+        :param printout: Boolean
+        :return: Prints i[1] in defined fstring if printout = True. Returns i[0] if printout = False.
+        '''
         i = [num * 5 / 2, 'x * 5 / 2']
         if not printout:
             return i[0]
@@ -21,6 +26,9 @@ while program:
 
     # Clear Function. Acts as a cls command in the custom terminal.
     def clear():
+        '''
+        Clears the terminal screen based off detected OS
+        '''
         from sys import platform
         if platform == 'win32':
             os.system('cls')

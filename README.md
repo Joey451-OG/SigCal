@@ -1,5 +1,5 @@
 # SigCal
-SigCal is a simple summation calculator.
+Simple summation calculator.
 # User Guide
 When SigCal is launched, it ask for two float inputs: `Bottom var`[iable] & `Top var`[iable].
 Bottom Variable is equal to `x`, and Top variable is equal to `y`. See `fig 1`.
